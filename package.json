@@ -1,0 +1,47 @@
+{
+  "name": "npm-license-scraper",
+  "version": "1.0.0",
+  "description": "Wrapper around npm-license-crawler to download and export text of licenses in JSON format",
+  "homepage": "https://github.com/jackw01/npm-license-scraper",
+  "author": "jackw01",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackw01/npm-license-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackw01/npm-license-scraper/issues"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "license",
+    "checker",
+    "scraper",
+    "crawler"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "npm-license-scraper": "bin/licensescraper.js"
+  },
+  "main": "bin/licensescraper.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32",
+    "freebsd",
+    "openbsd",
+    "sunos"
+  ],
+  "dependencies": {
+    "axios": "^0.19.0",
+    "npm-license-crawler": "^0.2.1",
+    "strip-ansi": "^5.2.0"
+  }
+}
