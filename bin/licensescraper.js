@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 // Copyright 2019 jackw01. Released under the MIT License (see LICENSE for details).
 
 const crawler = require('npm-license-crawler');
